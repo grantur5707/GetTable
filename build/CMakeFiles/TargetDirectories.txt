@@ -1,0 +1,3 @@
+C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/GetTable.dir
+C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/ZERO_CHECK.dir

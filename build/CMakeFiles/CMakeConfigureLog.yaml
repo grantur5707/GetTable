@@ -1,0 +1,451 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 03.02.2024 20:21:07.
+      
+      Проект "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "E:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.25
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/3.28.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 03.02.2024 20:21:09.
+      
+      Проект "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "E:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.07
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/3.28.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-07q6n8"
+      binary: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-07q6n8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-07q6n8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5085a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 03.02.2024 20:21:10.
+        
+        Проект "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\cmTC_5085a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5085a.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\Debug\\".
+          Создание каталога "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "E:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5085a.dir\\Debug\\\\" /Fd"cmTC_5085a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5085a.dir\\Debug\\\\" /Fd"cmTC_5085a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\Debug\\cmTC_5085a.exe" /INCREMENTAL /ILK:"cmTC_5085a.dir\\Debug\\cmTC_5085a.ilk" /NOLOGO /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-07q6n8/Debug/cmTC_5085a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-07q6n8/Debug/cmTC_5085a.lib" /MACHINE:X64  /machine:x64 cmTC_5085a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5085a.vcxproj -> C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\Debug\\cmTC_5085a.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\Debug\\cmTC_5085a.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\cmTC_5085a.write.1u.tlog" "cmTC_5085a.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\Debug\\cmTC_5085a.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\cmTC_5085a.write.1u.tlog" "cmTC_5085a.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\Debug\\cmTC_5085a.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\cmTC_5085a.write.1u.tlog" "cmTC_5085a.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5085a.dir\\Debug\\cmTC_5085a.tlog\\cmTC_5085a.lastbuildstate".
+        Сборка проекта "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07q6n8\\cmTC_5085a.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-llp8xo"
+      binary: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-llp8xo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-llp8xo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28890.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 03.02.2024 20:21:11.
+        
+        Проект "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\cmTC_28890.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_28890.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\Debug\\".
+          Создание каталога "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "E:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28890.dir\\Debug\\\\" /Fd"cmTC_28890.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28890.dir\\Debug\\\\" /Fd"cmTC_28890.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\Debug\\cmTC_28890.exe" /INCREMENTAL /ILK:"cmTC_28890.dir\\Debug\\cmTC_28890.ilk" /NOLOGO /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-llp8xo/Debug/cmTC_28890.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-llp8xo/Debug/cmTC_28890.lib" /MACHINE:X64  /machine:x64 cmTC_28890.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_28890.vcxproj -> C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\Debug\\cmTC_28890.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\Debug\\cmTC_28890.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\cmTC_28890.write.1u.tlog" "cmTC_28890.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\Debug\\cmTC_28890.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\cmTC_28890.write.1u.tlog" "cmTC_28890.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\Debug\\cmTC_28890.exe" "E:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\cmTC_28890.write.1u.tlog" "cmTC_28890.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_28890.dir\\Debug\\cmTC_28890.tlog\\cmTC_28890.lastbuildstate".
+        Сборка проекта "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llp8xo\\cmTC_28890.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.03
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "E:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-w5pct1"
+      binary: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-w5pct1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-w5pct1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04ae0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 03.02.2024 20:21:13.
+        
+        Проект "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\cmTC_04ae0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_04ae0.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\Debug\\".
+          Создание каталога "cmTC_04ae0.dir\\Debug\\cmTC_04ae0.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_04ae0.dir\\Debug\\cmTC_04ae0.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_04ae0.dir\\Debug\\cmTC_04ae0.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "E:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04ae0.dir\\Debug\\\\" /Fd"cmTC_04ae0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04ae0.dir\\Debug\\\\" /Fd"cmTC_04ae0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\src.c"
+        C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\cmTC_04ae0.vcxproj]
+        Сборка проекта "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\cmTC_04ae0.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\cmTC_04ae0.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5pct1\\cmTC_04ae0.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "E:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-1q2n5n"
+      binary: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-1q2n5n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-1q2n5n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c6c52.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 03.02.2024 20:21:13.
+        
+        Проект "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\cmTC_c6c52.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_c6c52.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\Debug\\".
+          Создание каталога "cmTC_c6c52.dir\\Debug\\cmTC_c6c52.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_c6c52.dir\\Debug\\cmTC_c6c52.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_c6c52.dir\\Debug\\cmTC_c6c52.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "E:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6c52.dir\\Debug\\\\" /Fd"cmTC_c6c52.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CheckFunctionExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6c52.dir\\Debug\\\\" /Fd"cmTC_c6c52.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\Debug\\cmTC_c6c52.exe" /INCREMENTAL /ILK:"cmTC_c6c52.dir\\Debug\\cmTC_c6c52.ilk" /NOLOGO /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-1q2n5n/Debug/cmTC_c6c52.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-1q2n5n/Debug/cmTC_c6c52.lib" /MACHINE:X64  /machine:x64 cmTC_c6c52.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\cmTC_c6c52.vcxproj]
+        Сборка проекта "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\cmTC_c6c52.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\cmTC_c6c52.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1q2n5n\\cmTC_c6c52.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "E:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-mdencw"
+      binary: "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-mdencw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-mdencw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0a644.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 03.02.2024 20:21:14.
+        
+        Проект "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\cmTC_0a644.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_0a644.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\Debug\\".
+          Создание каталога "cmTC_0a644.dir\\Debug\\cmTC_0a644.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_0a644.dir\\Debug\\cmTC_0a644.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_0a644.dir\\Debug\\cmTC_0a644.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "E:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a644.dir\\Debug\\\\" /Fd"cmTC_0a644.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CheckFunctionExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"E:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a644.dir\\Debug\\\\" /Fd"cmTC_0a644.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\Debug\\cmTC_0a644.exe" /INCREMENTAL /ILK:"cmTC_0a644.dir\\Debug\\cmTC_0a644.ilk" /NOLOGO /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-mdencw/Debug/cmTC_0a644.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/CMakeScratch/TryCompile-mdencw/Debug/cmTC_0a644.lib" /MACHINE:X64  /machine:x64 cmTC_0a644.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\cmTC_0a644.vcxproj]
+        Сборка проекта "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\cmTC_0a644.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\cmTC_0a644.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Ins1derFT\\source\\repos\\GetTable\\GetTable\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdencw\\cmTC_0a644.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.42
+        
+      exitCode: 1
+...

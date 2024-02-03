@@ -1,0 +1,10 @@
+^C:\USERS\INS1DERFT\SOURCE\REPOS\GETTABLE\GETTABLE\BUILD\CMAKEFILES\2B1857A1E6DE64365543086441E0FE92\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ins1derFT/source/repos/GetTable/GetTable -BC:/Users/Ins1derFT/source/repos/GetTable/GetTable/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/GetTable.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

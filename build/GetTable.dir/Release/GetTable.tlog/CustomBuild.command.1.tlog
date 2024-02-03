@@ -1,0 +1,10 @@
+^C:\USERS\INS1DERFT\SOURCE\REPOS\GETTABLE\GETTABLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ins1derFT/source/repos/GetTable/GetTable -BC:/Users/Ins1derFT/source/repos/GetTable/GetTable/build --check-stamp-file C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
