@@ -1,0 +1,5 @@
+﻿  GetTable.cpp
+C:\Users\Ins1derFT\source\repos\GetTable\GetTable\GetTable.cpp(30,73): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  GetTable.vcxproj -> C:\Users\Ins1derFT\source\repos\GetTable\x64\Debug\GetTable.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
