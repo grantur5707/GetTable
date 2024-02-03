@@ -10,6 +10,9 @@
 #include <string>
 #include <iostream>
 #include <regex>
+#include <algorithm>
+#include <cctype>
+#include <locale>
 
 using namespace std;
 
@@ -34,16 +37,18 @@ struct TableInfo {
  */
 vector<TableInfo> extractTableInfo(const string& text) {
     vector<TableInfo> tables;
-    regex tablePattern(R"(Таблица\s+([\d.]+)\s+.*?\s+(.+))");
-    auto matches_begin = sregex_iterator(text.begin(), text.end(), tablePattern);
-    auto matches_end = sregex_iterator();
+    regex tablePattern(R"(Таблица\s+([\d.]+)(?:\s+.*?\s+(.*))?)");
+    stringstream ss(text);
+    string line;
 
-    for (sregex_iterator i = matches_begin; i != matches_end; ++i) {
-        smatch match = *i;
-        TableInfo table;
-        table.number = match.str(1);
-        table.title = match.str(2);
-        tables.push_back(table);
+    while (getline(ss, line)) {
+        smatch match;
+        if (regex_search(line, match, tablePattern)) {
+            TableInfo table;
+            table.number = match.str(1);
+            table.title = match.str(2);
+            tables.push_back(table);
+        }
     }
 
     return tables;
@@ -70,6 +75,22 @@ vector<string> findMisorderedTables(const vector<TableInfo>& tables) {
 }
 
 /**
+ * @brief Удаляет пробелы с начала и конца строки.
+ * @param str Строка для обработки.
+ * @return Обработанная строка.
+ */
+string trim(const string& str) {
+    string s = str;
+    s.erase(s.begin(), find_if(s.begin(), s.end(), [](unsigned char ch) {
+        return !isspace(ch);
+        }));
+    s.erase(find_if(s.rbegin(), s.rend(), [](unsigned char ch) {
+        return !isspace(ch);
+        }).base(), s.end());
+    return s;
+}
+
+/**
  * @brief Точка входа в программу.
  * Использует Tesseract и OpenCV для распознавания и анализа таблиц в изображении.
  * @return Код завершения программы.
@@ -77,7 +98,7 @@ vector<string> findMisorderedTables(const vector<TableInfo>& tables) {
 int main() {
     locale::global(locale("en_US.UTF-8"));
 
-    cv::Mat img = cv::imread("4.png");
+    cv::Mat img = cv::imread("4_1.png");
 
     if (img.empty()) {
         cerr << "Ошибка: изображение не загружено." << endl;
@@ -101,12 +122,18 @@ int main() {
 
     replace(text.begin(), text.end(), '|', '1');
 
+    //cout << text << endl;
+
     vector<TableInfo> tables = extractTableInfo(text);
     vector<string> misorderedTables = findMisorderedTables(tables);
 
     for (const auto& table : tables) {
         cout << "Номер таблицы: " << table.number << endl;
-        cout << "Название таблицы: " << table.title << endl;
+        string trimmedTitle = trim(table.title);
+        if (trimmedTitle.empty())
+            cout << "Название таблицы отсутствует" << endl;
+        else
+            cout << "Название таблицы: " << trimmedTitle << endl;
         cout << "----" << endl;
     }
 

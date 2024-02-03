@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Ins1derFT\source\repos\GetTable\GetTable\GetTable.cpp">
+    <ClCompile Include="C:\Users\Ins1derFT\Documents\GitHub\GetTable\GetTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Ins1derFT\source\repos\GetTable\GetTable\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Ins1derFT\Documents\GitHub\GetTable\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3D9F0026-F890-362B-9430-058D7317AD2E}</UniqueIdentifier>
+      <UniqueIdentifier>{5A0F8E7F-F2B9-3329-A00C-C77DDA131807}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

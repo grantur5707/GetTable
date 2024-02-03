@@ -110,11 +110,11 @@ C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake
-C:/Users/Ins1derFT/source/repos/GetTable/GetTable/CMakeLists.txt
-C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/3.28.2/CMakeCCompiler.cmake
-C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/3.28.2/CMakeCXXCompiler.cmake
-C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/3.28.2/CMakeRCCompiler.cmake
-C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/CMakeFiles/3.28.2/CMakeSystem.cmake
+C:/Users/Ins1derFT/Documents/GitHub/GetTable/CMakeLists.txt
+C:/Users/Ins1derFT/Documents/GitHub/GetTable/build/CMakeFiles/3.28.2/CMakeCCompiler.cmake
+C:/Users/Ins1derFT/Documents/GitHub/GetTable/build/CMakeFiles/3.28.2/CMakeCXXCompiler.cmake
+C:/Users/Ins1derFT/Documents/GitHub/GetTable/build/CMakeFiles/3.28.2/CMakeRCCompiler.cmake
+C:/Users/Ins1derFT/Documents/GitHub/GetTable/build/CMakeFiles/3.28.2/CMakeSystem.cmake
 E:/vcpkg/installed/x64-windows/share/leptonica/LeptonicaConfig-version.cmake
 E:/vcpkg/installed/x64-windows/share/leptonica/LeptonicaConfig.cmake
 E:/vcpkg/installed/x64-windows/share/leptonica/LeptonicaTargets-debug.cmake

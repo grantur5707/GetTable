@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Ins1derFT/source/repos/GetTable/GetTable
+# Install script for directory: C:/Users/Ins1derFT/Documents/GitHub/GetTable
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Ins1derFT/source/repos/GetTable/GetTable/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Ins1derFT/Documents/GitHub/GetTable/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
