@@ -60,6 +60,7 @@ vector<string> findMisorderedTables(const vector<TableInfo>& tables) {
 
     for (const auto& table : tables) {
         if (table.number <= prevNumber) {
+            misordered.push_back(table.number);
             misordered.push_back(prevNumber);
         }
         prevNumber = table.number;
