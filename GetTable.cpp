@@ -1,3 +1,8 @@
+/**
+ * @file main.cpp
+ * @brief Программа распознавания таблиц с помощью Tesseract и OpenCV.
+ */
+
 #include <tesseract/baseapi.h>
 #include <leptonica/allheaders.h>
 #include <opencv2/opencv.hpp>
@@ -8,13 +13,25 @@
 
 using namespace std;
 
-// Структура для хранения информации о таблице
+/**
+ * @struct TableInfo
+ * @brief Структура для хранения информации о таблице.
+ *
+ * @var TableInfo::number
+ * Номер таблицы в виде строки.
+ * @var TableInfo::title
+ * Название таблицы.
+ */
 struct TableInfo {
     string number;
     string title;
 };
 
-// Функция для извлечения информации о таблицах из текста
+/**
+ * @brief Извлекает информацию о таблицах из текста.
+ * @param text Текст для анализа.
+ * @return Вектор структур TableInfo с информацией о таблицах.
+ */
 vector<TableInfo> extractTableInfo(const string& text) {
     vector<TableInfo> tables;
     regex tablePattern(R"(Таблица\s+([\d.]+)\s+.*?\s+(.+))");
@@ -32,6 +49,11 @@ vector<TableInfo> extractTableInfo(const string& text) {
     return tables;
 }
 
+/**
+ * @brief Находит таблицы, расположенные не по порядку.
+ * @param tables Вектор структур TableInfo для анализа.
+ * @return Вектор строк с номерами таблиц, расположенных не по порядку.
+ */
 vector<string> findMisorderedTables(const vector<TableInfo>& tables) {
     vector<string> misordered;
     string prevNumber = "0";  // Инициализация с нулевым номером для сравнения с первой таблицей
@@ -46,6 +68,11 @@ vector<string> findMisorderedTables(const vector<TableInfo>& tables) {
     return misordered;
 }
 
+/**
+ * @brief Точка входа в программу.
+ * Использует Tesseract и OpenCV для распознавания и анализа таблиц в изображении.
+ * @return Код завершения программы.
+ */
 int main() {
     locale::global(locale("en_US.UTF-8"));
 
@@ -72,8 +99,6 @@ int main() {
     string text(outText);
 
     replace(text.begin(), text.end(), '|', '1');
-
-    //cout << text << endl;
 
     vector<TableInfo> tables = extractTableInfo(text);
     vector<string> misorderedTables = findMisorderedTables(tables);
