@@ -13,6 +13,7 @@
 #include <algorithm>
 #include <cctype>
 #include <locale>
+#include <windows.h>
 
 using namespace std;
 
@@ -96,7 +97,7 @@ string trim(const string& str) {
  * @return Код завершения программы.
  */
 int main() {
-    locale::global(locale("en_US.UTF-8"));
+    SetConsoleOutputCP(CP_UTF8);
 
     cv::Mat img = cv::imread("4_1.png");
 
